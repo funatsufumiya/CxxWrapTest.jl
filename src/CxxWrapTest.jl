@@ -2,7 +2,7 @@ module CxxWrapTest
 
 module CppHello
   using CxxWrap
-  @wrapmodule(() -> joinpath("lib","libgreet"))
+  @wrapmodule(() -> normpath(joinpath(@__DIR__, "..", "lib","libgreet")))
 
   function __init__()
     @initcxx
