@@ -62,6 +62,6 @@ version = "1.11.0"
 
 [[deps.libcxxwrap_julia_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-path = "C:\\Users\\funatsu\\.julia\\dev\\libcxxwrap_julia_jll"
+git-tree-sha1 = "a0b6eb05dde4ededa688ecf05e33caa5bffd42a5"
 uuid = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
 version = "0.14.9+0"
