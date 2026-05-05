@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "13da803f6f7d9160b86f5f0ab6a67c15c68dafe2"
+project_hash = "9d3a04782a583a2b99b6f5f2a627272c2f08cc4f"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -15,7 +15,7 @@ uuid = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
 version = "0.17.5"
 
 [[deps.CxxWrapTest]]
-deps = ["CxxWrap", "libcxxwrap_julia_jll"]
+deps = ["CxxWrap"]
 path = "."
 uuid = "cbd315c3-eba8-4a05-8f89-722e89e47a45"
 version = "0.1.0"
