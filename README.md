@@ -18,7 +18,7 @@ $ cmake --build build --config Release --parallel 8 -j 8
 
 NOTE: `-DCMAKE_PREFIX_PATH=xxxx` can be found by `julia --project=@. -e 'using CxxWrap; print(CxxWrap.prefix_path())'`. This command prints the `/path/to/libcxxwrap_julia_jll/override` then please set it to `-DCMAKE_PREFIX_PATH=/path/to/libcxxwrap_julia_jll/override`. Julia executable path can be get by `$(which julia)`
 
-### Windows libcxxwrap_julia_jll build
+#### Windows libcxxwrap_julia_jll build
 
 > [!NOTE]
 > If you have problems when rung CxxWrapTest or CxxWrap, try this method.
