@@ -4,7 +4,7 @@ Simple C++ call test from Julia using CxxWrap.jl
 
 ## Usage
 
-### 1. Build cpp code (using CMake)
+### 1. [Optional] Build cpp code (using CMake)
 
 **NOTE**: precompiled lib is already included in `lib` folder. You need this process only if you need (for development or for study).
 
