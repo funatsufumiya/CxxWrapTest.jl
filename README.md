@@ -6,7 +6,7 @@ Simple C++ call test from Julia using CxxWrap.jl
 
 ### 1. Build cpp code (using CMake)
 
-**NOTE**: precompiled lib is already included in `lib` folder. You need this process for your development (or for study).
+**NOTE**: precompiled lib is already included in `lib` folder. You need this process only if you need (for development or for study).
 
 ```bash
 $ cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=C:/Users/xxx/.julia/dev/libcxxwrap_julia_jll/override -DJulia_EXECUTABLE=/path/to/bin/julia.exe cpp_src
