@@ -30,6 +30,8 @@ If you have problem running below in Windows, try [Building libcxxwrap-julia](ht
 libcxxwrap_julia = "C:/Users/xxxx/.julia/dev/libcxxwrap_julia_jll/override"
 ```
 
+(Note: if you have error on cmake configure of libcxxwrap_julia_jll/override, please consider replace `-DJulia_PREFIX` to `-DJulia_EXECUTABLE`)
+
 Then `julia --project=@. -e 'using CxxWrap; print(CxxWrap.prefix_path())'` would point `C:/Users/xxxx/.julia/dev/libcxxwrap_julia_jll/override`. This would make running CxxWrap.jl succeeded.
 
 ### 2. Run julia code
