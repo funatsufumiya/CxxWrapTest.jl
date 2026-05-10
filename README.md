@@ -23,7 +23,7 @@ NOTE: `-DCMAKE_PREFIX_PATH=xxxx` can be found by `julia --project=@. -e 'using C
 > [!NOTE]
 > If you have problems when rung CxxWrapTest or CxxWrap on Windows, try this method.
 
-If you have problem running below in Windows, try [Building libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia#building-libcxxwrap-julia). And please put Override.toml at `C:/Users/xxxx/.julia/artifacts/Overrides.xml` having this:
+If you have problem running below in Windows, try [Building libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia#building-libcxxwrap-julia). And please put Override.toml at `C:/Users/xxxx/.julia/artifacts/Overrides.toml` having this:
 
 ```toml
 [3eaa8342-bff7-56a5-9981-c04077f7cee7]
