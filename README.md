@@ -30,7 +30,11 @@ If you have problem running below in Windows, try [Building libcxxwrap-julia](ht
 libcxxwrap_julia = "C:/Users/xxxx/.julia/dev/libcxxwrap_julia_jll/override"
 ```
 
-(***Note***: if you have error on cmake configure of libcxxwrap_julia_jll/override, please consider replace `-DJulia_PREFIX` to `-DJulia_EXECUTABLE`, and please run from x64 Native Tools Command Prompt for VS)
+> [!NOTE]
+> if you have error on cmake configure of libcxxwrap_julia_jll/override, please consider replace `-DJulia_PREFIX` to `-DJulia_EXECUTABLE`, and please run from x64 Native Tools Command Prompt for VS)
+
+> [!Warning]
+> On VS 2026 latest environment, you need latest cmake version such as 4.3.2, please install the latest version using `winget install Kitware.CMake`
 
 Then `julia --project=@. -e 'using CxxWrap; print(CxxWrap.prefix_path())'` would point `C:/Users/xxxx/.julia/dev/libcxxwrap_julia_jll/override`. This would make running CxxWrap.jl succeeded.
 
