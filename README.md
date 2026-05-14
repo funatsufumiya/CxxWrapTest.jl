@@ -1,6 +1,6 @@
 # CppWrapTest.jl
 
-Simple C++ call test from Julia using CxxWrap.jl
+Simple C++ call test from Julia using [CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl)
 
 ## Usage
 
